@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>Post Page</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='post.css')}}" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+           <a class="nav-link active" aria-current="page"style="color:black" href="/">Home</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="#" style="color:black">Add Blogs</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="/all" style="color:black" >Read The content</a>
+           </li>
+        </ul>
+       </div>
+  </div>
+   </nav>
+   <p class="fu">Post A Blog</p>
+   <div class="content">
+    <img width="250" height="450" src="{{url_for('static',filename='b3.jpg')}}" />
+   	<img width="640" height="420" src="{{url_for('static',filename='p5.jpg')}}" />
+    <img width="250" height="450" src="{{url_for('static',filename='k1.jpg')}}" />
+   </div>
+   <form class="f" action="/output" method="POST">
+      <div class="container">
+          <div class="row">
+             <div class="col col-lg-2">
+                <label class="bon" for="title">Title</label></br>
+                <input type="text" size="150" class="w3" name="title"/>
+             </div>
+          </div>
+        </br>
+          <div class="row">
+            <div class="col col-lg-2">
+              <label class="bon" for="subtitle">SubTitle</label></br>
+                <input type="text" size="150" class="w3" name="subtitle"/>
+            </div>
+          </div>
+        </br>
+          <div class="row">
+            <div class="col col-lg-2">
+              <label class="bon" for="author">Author</label></br>
+              <input type="text" size="150" class="w3" name="author"/>
+            </div>
+          </div>
+        </br>
+          <div class="row">
+            <div class="col col-lg-2">
+              <label class="bon" for="content">Content</label></br>
+              <input type="text" size="150" class="w3" name="content"/>
+            </div>
+          </div>
+        </br>
+          <div class="row">
+            <div class="col">
+              <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+            </div>
+          </div>
+      </div>
+    </form>
+    <div class="c1">
+    <div class="c2">
+      <p>Contact Us</p>
+      <p>Mail us on : riya.k@gmail.com</p>
+    </div>
+   </div>
+ </body>
+ </html>

@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Blog Page</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='intro.css')}}">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light"  style="background-color:white">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"style="color:black" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/post" style="color:black">Add Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/all" style="color:black" >Read The content</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+   </nav>
+   <h1 class="a">Infinity By Sameera</h1>
+   <div class="img">
+   	<div class="content" style="background-color:white;color:black">
+   		<p><h3 class="fu"><b>Notification</b></h3>Hey I'm Sameera, Welcome to my blog where I share blogging tips .</p>
+   	</div>
+   </div>
+   <div class="main">
+   	<div class="item">
+   		<img width="500" height="350" src="{{url_for('static',filename='p1.jpg')}}"/>
+   	</div>
+   	<div class="item">
+   		<img width="500" height="350" src="{{url_for('static',filename='p2.jpg')}}"/>
+   	</div>
+   </div>
+    <div class="main-2">
+   	<div class="item-2">
+   		<a href="/post" class="sam"><p>Create a new blog</p></a>
+   	</div>
+   	<div class="item-2">
+   		<a href="/all" class="sam"><p>Preview the old blogs</p></a>
+   	</div>
+   </div>
+   <div class="c1">
+   	<div class="c2">
+   		<p>Contact Us</p>
+   		<p>Call us on : 9874566772</p>
+   		<p>Mail us on : riya.k@gmail.com</p>
+   	</div>
+   </div>
+   <div class="f"><p>Collective management of copyright
+Collective management is the exercise of copyright and related rights by organizations acting in the interest and on behalf of the owners of rights.</p></div>
+</body>
+</html>

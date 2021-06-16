@@ -1,0 +1,30 @@
+
+.nav-item{
+	font-family: 'Sacramento', cursive;
+	font-size:2.0em;
+}
+.p{
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size:3.0em;
+}
+.cont{
+	justify-content:center;
+	display: flex;
+	padding:20px;
+	background-image:url('s1.jpg');
+	margin-top:20px;
+	margin-left:150px;
+	margin-right:150px;
+	margin-bottom:50px;
+}
+.main,.p{
+	text-align:center;
+	font-family: 'Sacramento', cursive;
+	font-size:5.0em;
+}
+.fool{
+	text-decoration: none;
+	color:black;
+	font-size: 4em;
+}

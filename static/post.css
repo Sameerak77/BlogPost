@@ -1,0 +1,62 @@
+.nav-item{
+	font-family: 'Sacramento', cursive;
+	font-size:2.0em;
+}
+.b{
+	color:black;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size:3.5em;
+}
+.content{
+	justify-content:space-between;
+	display: flex;
+	padding:20px;
+	background-color:rgb(196, 181, 161);
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+}
+.fu{
+	color:black;
+	font-family:  'Sacramento', cursive;
+	text-align: center;
+	font-size: 3.5em;
+}
+.w3{
+border: 1px solid black;
+margin: 0;
+padding: 0;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+.container{
+	justify-content: center;
+	display:flex;
+	background-color:white;
+	flex-direction: column;
+	margin-left: 500px;
+}
+.bon{
+	color:black;
+	font-family:  'Sacramento', cursive;
+	text-align: center;
+	font-size: 2.5em;
+
+}
+.c1{
+	display: flex;
+	background-color:rgb(233, 235, 232);
+	justify-content: center;
+	margin-left:60px;
+	margin-right: 60px;
+	margin-top:2px;
+	margin-bottom:80px;
+}
+.c2{
+	padding:10px;
+	margin:5px;
+   font-family:'Sacramento', cursive;
+   font-size: 2em;
+}

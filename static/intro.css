@@ -1,0 +1,80 @@
+
+
+.a{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+    font-size: 6.5em;
+}
+.nav-item{
+	font-family: 'Sacramento', cursive;
+	font-size:2.0em;
+}
+.img {
+  min-height: 100vh;
+  background-image: url("p6.jpg");
+  background-size: 1330px 720px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 20px;
+  margin:30px;
+}
+.content{
+  margin-left:600px;
+  margin-right:200px;
+  text-align: center;
+  width:300px;
+  line-height:30px;
+  border-radius: 10px;
+  font-family: 'Sacramento', cursive;
+  color:yellow;
+  font-size:2em;
+  padding:1px;
+}
+.fu{
+	padding:0.5px;
+	font-family: 'Sacramento', cursive;
+	font-size:1.2em;
+}
+.main{
+	display:flex;
+	justify-content: space-around;
+	background-image: url('s1.jpg');
+}
+.item{
+	padding:10px;
+	margin:10px;
+
+}
+.main-2{
+	display:flex;
+	justify-content: space-around;
+}
+.item-2{
+	font-family: 'Sacramento', cursive;
+	font-size:3em;
+	margin:10px;
+
+}
+.c1{
+	display: flex;
+	background-color:rgb(233, 235, 232);
+	justify-content: center;
+	margin-left:80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+.c2{
+	padding:10px;
+	margin:5px;
+   font-family:'Sacramento', cursive;
+   font-size: 2em;
+}
+.f{
+	font-family:'Sacramento', cursive;
+   font-size: 2em;
+   text-align: center;
+}
+.sam{
+	color:black;
+	text-decoration: none;
+}
